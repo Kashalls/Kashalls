@@ -1,4 +1,5 @@
 const path = require('path');
+const dev = process.env.NODE_ENV !== 'production';
 
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const CSSMinimizerPlugin = require('css-minimizer-webpack-plugin');
@@ -23,7 +24,8 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'stylesheets/[name].css'
+            filename: dev ? 'stylesheets/[name].css': 'stylesheets/[name].[contenthash].css',
+            chunkFilename: dev ? 'stylesheets/[id].css' : 'stylesheets/[id].[contenthash].css'
         }),
         new HTMLWebpackPlugin({
             template: './src/index.html'
@@ -39,23 +41,13 @@ module.exports = {
                 }
             },
             {
-                test: /\.scss$/,
+                test: /\.(sa|sc|c)ss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    {
-                        loader: 'css-loader'
-                    },
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            sourceMap: true
-                        }
-                    }
-                ]
-            },
-            {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader']
+                    'css-loader',
+                    'postcss-loader',
+                    'sass-loader',
+                ],
             },
             {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
@@ -63,12 +55,9 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                exclude: [ 
-                    path.resolve(__dirname, 'excluded_file_name.js') 
-                ],
                 enforce: 'post',
-                use: { 
-                    loader: WebpackObfuscator.loader, 
+                use: {
+                    loader: WebpackObfuscator.loader,
                     options: {
                         rotateStringArray: true
                     }
@@ -76,6 +65,7 @@ module.exports = {
             }]
     },
     optimization: {
+        runtimeChunk: 'single',
         minimize: true,
         minimizer: [
             new CSSMinimizerPlugin()
