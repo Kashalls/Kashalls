@@ -1,0 +1,101 @@
+.shapes-background {
+    filter: invert(1);
+    transform: scale(1.1) !important;
+}
+
+.bot-list-section .bot-img {
+    background: #090909;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.blog_card {
+    background: #222428;
+    color: white;
+    border: 1px solid #353535;
+}
+
+.blog_card:hover {
+    background: #222428;
+    color: white;
+}
+
+.blog_card:after {
+    background: #0e0e0e !important;
+}
+
+.blog_card:hover:after {
+    background: #0e0e0e !important;
+}
+
+.bot-card div .bot-btns .btn {
+    color: #7187dd !important;
+}
+
+.maincon .content {
+    background: var(--background);
+    color: var(--text);
+}
+
+.content h2:not(.override) {
+    color: white !important;
+}
+
+.input:not(.override) {
+    background: #34363a !important;
+    border: 1px solid #2a2d32 !important;
+    color: white !important;
+}
+
+.taginput {
+    background: none;
+    color: white;
+}
+
+.suggestedtags {
+    background: #2a2d32;
+}
+
+.suggestedtags p:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    color: white !important;
+}
+
+.control .checkbox:hover {
+    color: #9790a2 !important;
+}
+
+.control .checkbox strong {
+    color: red !important;
+}
+
+.content select:not(.override) {
+    background: #34363a !important;
+    color: white !important;
+    border: 1px solid black !important;
+}
+
+.maincon .button {
+    filter: invert(1) !important;
+}
+
+.darkthemeee h1 {
+    color: white !important;
+}
+
+.darkthemeee h4 {
+    color: white !important;
+}
+
+/* blame tonkku for what's below */
+.report-container p,
+.report-container strong {
+    color: white !important;
+}
+
+.quotaindiv.excused {
+    background-color: #2a2d32 !important;
+}

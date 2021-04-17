@@ -1,0 +1,39 @@
+{
+  "name": "kashalls",
+  "version": "1.0.0",
+  "description": "A website for me (jordan jones) ",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kashalls/Kashalls.git"
+  },
+  "author": "Kashalls <https://jordanjones.org> (Jordan Jones)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Kashalls/Kashalls/issues"
+  },
+  "homepage": "https://github.com/Kashalls/Kashalls#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "bulma": "^0.9.2",
+    "css-loader": "^5.2.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
