@@ -4328,7 +4328,7 @@ progress::-moz-progress-bar {
     text-align: center !important;
 }
 #home-page header {
-    background-color: var(--accent);
+    /* background-color: var(--accent); */
     padding-top: 140px;
     padding-bottom: 3rem;
     color: #fff;
@@ -6668,7 +6668,7 @@ h2 {
   
   #home-page header {
     height: 369px;
-    background-color: #7289da;
+    /* background-color: #7289da; */
     padding-top: 140px;
     color: white;
   }
@@ -8956,10 +8956,10 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(47, 79, 79, 0.45), 
       rgba(47, 79, 79, 0.45)
-    ) !important;
+    ) !important;  */
 }
 #menu {
   background:#1d1f21 !important;
