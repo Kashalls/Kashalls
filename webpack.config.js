@@ -5,7 +5,6 @@ const CSSMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    mode: 'development',
     entry: {
         main: './src/themes/main.js',
         light: {
