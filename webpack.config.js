@@ -3,6 +3,7 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const CSSMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const 
 
 module.exports = {
     entry: {
@@ -59,6 +60,19 @@ module.exports = {
             {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
                 type: 'asset/inline',
+            },
+            {
+                test: /\.js$/,
+                exclude: [ 
+                    path.resolve(__dirname, 'excluded_file_name.js') 
+                ],
+                enforce: 'post',
+                use: { 
+                    loader: WebpackObfuscator.loader, 
+                    options: {
+                        rotateStringArray: true
+                    }
+                }
             }]
     },
     optimization: {
