@@ -5,10 +5,21 @@ const CSSMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    mode: 'development',
+    entry: {
+        main: './src/themes/main.js',
+        light: {
+            import: './src/themes/light.js',
+            dependOn: 'main'
+        },
+        dark: {
+            import: './src/themes/dark.js',
+            dependOn: 'main'
+        }
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/main.js'
+        filename: 'js/[name].bundle.js'
     },
     plugins: [
         new MiniCssExtractPlugin({
