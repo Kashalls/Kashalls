@@ -8,4 +8,5 @@ import GSuite from '../images/gsuite.png';
 import Vultr from '../images/vultr.png';
 import FreePBX from '../images/freepbx.png';
 
-import DarkTheme from '../javascript/darkTheme.js';
+import enableDarkTheme from '../javascript/darkTheme.js';
+window.enableDarkTheme = enableDarkTheme;

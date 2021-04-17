@@ -1,8 +1,12 @@
 const darkModeIdentifier = 'dark';
 const lightModeIdentifier = 'light';
 const doc = document.documentElement;
+let cb = document.getElementById('darkThemeEnabler');
 
 window.onload = function() {
+    if (localStorage.getItem('dark') === null) {
+        localStorage.setItem('dark', 'true');
+    }
     if (localStorage.getItem('dark') === 'true') {
         let theme_node = document.createElement('link');
         theme_node.id = 'dtssheet';
@@ -39,14 +43,12 @@ function addDTToHeader() {
     let theme_node = document.createElement('LINK');
     theme_node.setAttribute('rel', 'stylesheet');
     theme_node.setAttribute('id', 'dtssheet');
-    theme_node.setAttribute('href', '/stylesheets/dark.css');
+    theme_node.setAttribute('href', 'stylesheets/dark.css');
     document.querySelector('head')
         .appendChild(theme_node);
 }
 
-let cb = document.getElementById('darkThemeEnabler');
-
-function enableDarkTheme() {
+export default function enableDarkTheme() {
     if (cb.checked) {
         doc.dataset.theme = lightModeIdentifier;
         setTheme(lightModeIdentifier);
@@ -64,5 +66,3 @@ function enableDarkTheme() {
         addDTToHeader();
     }
 }
-
-module.exports = enableDarkTheme

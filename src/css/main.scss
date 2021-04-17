@@ -1,12 +1,9 @@
 @charset "utf-8";
-
-// Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "https://fonts.googleapis.com/css?family=Markazi+Text";
 
-// Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 
-// Import only what you need from Bulma
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/base/_all.sass";
 @import "bulma/sass/elements/button.sass";
@@ -18,7 +15,6 @@ $family-sans-serif: "Nunito", sans-serif;
 @import "bulma/sass/layout/section.sass";
 @import "bulma/bulma.sass";
 
-@import "https://fonts.googleapis.com/css?family=Markazi+Text";
 @media screen and (max-width: 768px) {
     .mobile-text-centered {
         text-align: center;
@@ -8581,147 +8577,6 @@ h2 {
     font-family:Karla;
   }
 
-
-  
-  /* DARK THEME BELOW */
-  
-  /*
-  article, body, html{
-      background:none !important;
-  }
-  html{
-      background:#2a2d32 !important;
-  }
-  .shapes-background{
-      filter:invert() grayscale();
-      transform:scale(1.1) !important;
-      z-index:-1;
-  }
-  .bot-card .content{
-      background:#27292e !important;
-      box-shadow:0px 0px 8px -2px rgba(0,0,0,0.6) !important;
-      opacity:0.9;
-  }
-  .bot-card:hover .content{
-      background:#24262b !important;
-      box-shadow:0px 4px 8px -2px rgba(0,0,0,0.6) !important;
-      opacity:1;
-  }
-  .bot-list-section .bot-img {
-      background:#090909;
-      box-shadow:none !important;
-      border:none !important;
-  }
-  .tooltip{
-      filter:invert();
-  }
-  .blog_card {
-      background:#222428;
-      color:white;
-      border:1px solid #353535;
-  }
-  .blog_card:hover {
-      background:#222428;
-      color:white;
-  }
-  .blog_card:after{
-      background:#0e0e0e !important;
-  }
-  .blog_card:hover:after{
-      background:#0e0e0e !important;
-  }
-  .bot-list-section .bot-name {
-      color:white;
-      font-size:1.2em;
-  }
-  .bot-list-section .bot-description {
-      color:rgba(255,255,255,0.7);
-  }
-  .bot-list-section .btn-like {
-      color:white;
-      border:1px solid #3c435d;
-  }
-  .bot-list-section .lib {
-      color:#687dc6;
-  }
-  .bot-card div .bot-btns .btn{
-      color:#7187dd !important;
-  }
-  #home-page .section-title h4 {
-      color:white;
-  }
-  #home-page .section-title p {
-      color:#7f8083;
-  }
-  .services-contact-button .tagbutton {
-      color:white;
-  }
-  #wrapperrr {
-      background:#262626;
-      box-shadow:0px 0px 0px 2px#7f8083;
-  }
-  .tagbutton {
-      color:white;
-  }
-  .bot-card .partnered{
-      background:#312538 !important;
-  }
-  .bot-card:hover .partnered{
-      background:#2a1d33 !important;
-  }
-  .partnered .bot-name {
-      color:gold;
-  }
-  .partnered .bot-description {
-      color:white !important;
-  }
-  .bot-card .partnered .bot-btns .btn:hover{
-      background:#3e1f54;
-      color:#e7c302 !important;
-  }
-  .bottom-bar {
-      background:#677bc8 !important;
-  }
-  .maincon .content {
-      background:#222428;
-      color:rgba(255,255,255,0.8);
-  }
-  .content h2 {
-      color:white;
-  }
-  .label {
-      color:white;
-  }
-  .input {
-      background:#34363a;
-      border:1px solid #2a2d32 !important;
-      color:white;
-  }
-  .taginput {
-      background:none;
-      color:white;
-  }
-  .suggestedtags{
-      background:#2a2d32;
-  }
-  .suggestedtags p:hover{
-      background:rgba(0,0,0,0.1);
-  }
-  .atag {
-      background:#34363a;
-  }
-  .atag:after{
-      border-left-color:#34363a;
-  }
-  .atag:before{
-      background:#222428;
-  }
-  .content select {
-      color:white;
-      background:#34363a;
-  }
-  */
-  
   
   .dark-mode {
     position: relative;
@@ -8942,9 +8797,6 @@ h2 {
 }
 article, body, html{
   background:none !important;
-}
-html{
-  background:#2a2d32 !important;
 }
 
 .table {
@@ -9224,6 +9076,11 @@ background: transparent !important;
 
 .services-button {
     margin-top: 10px;
+}
+
+.services-button button {
+    color: --accent-secondar;
+    border-color: --accent-secondary;
 }
 
 
