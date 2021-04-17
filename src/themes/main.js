@@ -10,6 +10,9 @@ import FreePBX from '../images/freepbx.png';
 import FreshFarmFundraising from '../images/farmfreshfundraising.png';
 
 import boxman from '../images/box-man.svg';
+import speedline from '../images/speedline.svg';
+import engineer from '../images/engineer.svg';
+import banner2 from '../images/banner2.svg'
 
 import enableDarkTheme from '../javascript/darkTheme.js';
 window.enableDarkTheme = enableDarkTheme;
