@@ -1748,14 +1748,7 @@ btn-x:hover {
     color: #ab9c1e;
     fill: #ab9c1e;
 }
-.sponsored .btn-like img {
-    display: block;
-    width: 11px;
-    height: 7px;
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgMTEgNyI+CiAgICA8cGF0aCBmaWxsPSIjYWI5YzFlIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMC42NzYgNS42MTVMOS41ODQgNi42MzNhLjQxOC40MTggMCAwIDEtLjI5Ni4xMTcuNDE4LjQxOCAwIDAgMS0uMjk2LS4xMTdMNS41IDMuMzU4IDIuMDA4IDYuNjMzYS40MTguNDE4IDAgMCAxLS4yOTYuMTE3LjQxOC40MTggMCAwIDEtLjI5Ni0uMTE3TC4zMjQgNS42MTVhLjM3MS4zNzEgMCAwIDEtLjEyNS0uMjhjMC0uMTEuMDQyLS4yMDMuMTI1LS4yODFsNC44OC00LjU3QS40MTguNDE4IDAgMCAxIDUuNS4zNjZjLjExNCAwIC4yMTMuMDQuMjk2LjExOGw0Ljg4IDQuNTdhLjM3MS4zNzEgMCAwIDEgLjEyNS4yOC4zNzEuMzcxIDAgMCAxLS4xMjUuMjgxeiIvPgo8L3N2Zz4=)
-        no-repeat;
-    padding-left: 11px;
-}
+
 .sponsored .bot-btns {
     border-top: 1px solid #dbcc44;
 }
@@ -3586,16 +3579,7 @@ progress::-moz-progress-bar {
     text-align: right;
     width: 500px;
 }
-.sub-page .illustration svg {
-    margin-bottom: -125px;
-    max-height: 500px;
-}
-.sub-page .illustration .svg-theme-color-primary {
-    fill: var(--variable-theme-color);
-}
-.sub-page .illustration .svg-theme-color-secondary {
-    fill: var(--variable-theme-color-secondary);
-}
+
 .sub-page .subscribe-button {
     font-weight: 600;
     color: #fff;
@@ -3986,102 +3970,6 @@ progress::-moz-progress-bar {
     color: var(--text-erased);
     font-size: 14px;
 }
-.star svg .svg-star {
-    fill: var(--cool-gray-300);
-}
-.selectable svg .svg-star:hover {
-    fill: var(--cool-gray-400);
-}
-.comment-stars-parent[data-stars="1"] .star:nth-child(1) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="1"] .selectable:nth-child(1) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="2"] .star:nth-child(1) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="2"] .selectable:nth-child(1) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="2"] .star:nth-child(2) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="2"] .selectable:nth-child(2) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="3"] .star:nth-child(1) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="3"] .selectable:nth-child(1) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="3"] .star:nth-child(2) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="3"] .selectable:nth-child(2) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="3"] .star:nth-child(3) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="3"] .selectable:nth-child(3) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="4"] .star:nth-child(1) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="4"] .selectable:nth-child(1) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="4"] .star:nth-child(2) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="4"] .selectable:nth-child(2) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="4"] .star:nth-child(3) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="4"] .selectable:nth-child(3) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="4"] .star:nth-child(4) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="4"] .selectable:nth-child(4) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="5"] .star:nth-child(1) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="5"] .selectable:nth-child(1) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="5"] .star:nth-child(2) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="5"] .selectable:nth-child(2) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="5"] .star:nth-child(3) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="5"] .selectable:nth-child(3) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="5"] .star:nth-child(4) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="5"] .selectable:nth-child(4) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
-.comment-stars-parent[data-stars="5"] .star:nth-child(5) svg .svg-star {
-    fill: var(--blue-400);
-}
-.comment-stars-parent[data-stars="5"] .selectable:nth-child(5) svg .svg-star:hover {
-    fill: var(--blue-500);
-}
 .reviews__action .current-score {
     color: var(--text-tertiary);
     font-weight: bolder;
@@ -4302,27 +4190,6 @@ progress::-moz-progress-bar {
     .page .page-title p {
         margin-top: 15px;
     }
-}
-#home-page .shapes-1 {
-    background-image: url("../images/abstract_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 600px;
-}
-#home-page .shapes-2 {
-    background-image: url("https://cdn.top.gg/web-assets/bg-2.svg");
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
-    top: 1390px;
-}
-#home-page .shapes-3 {
-    background-image: url("https://cdn.top.gg/web-assets/bg-1.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 2150px;
 }
 .servers {
     text-align: center !important;
@@ -4646,11 +4513,7 @@ progress::-moz-progress-bar {
 .social a.linkedin {
     padding: 4px;
 }
-.social a svg .face,
-.social a svg .twit,
-.social a svg .link {
-    fill: #000;
-}
+
 input {
     border: none;
     font-family: "Inter", BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -6648,17 +6511,6 @@ h2 {
       margin-top: 15px;
     }
   }
-
-  /* src/assets/styles/pages/_home.scss  */
-  #home-page .shapes-1 {
-    background-image: url("../images/speedline.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transform: rotate(180deg);
-    top: 700px;
-  }
-  
   .servers {
       text-align: center !important;
   }
@@ -6852,14 +6704,6 @@ h2 {
       border: solid 1px #eede57;
       color: #ab9c1e;
       fill: #ab9c1e;
-  }
-  
-  .partnered .btn-like img {
-      display: block;
-      width: 11px;
-      height: 7px;
-      background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgMTEgNyI+CiAgICA8cGF0aCBmaWxsPSIjYWI5YzFlIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMC42NzYgNS42MTVMOS41ODQgNi42MzNhLjQxOC40MTggMCAwIDEtLjI5Ni4xMTcuNDE4LjQxOCAwIDAgMS0uMjk2LS4xMTdMNS41IDMuMzU4IDIuMDA4IDYuNjMzYS40MTguNDE4IDAgMCAxLS4yOTYuMTE3LjQxOC40MTggMCAwIDEtLjI5Ni0uMTE3TC4zMjQgNS42MTVhLjM3MS4zNzEgMCAwIDEtLjEyNS0uMjhjMC0uMTEuMDQyLS4yMDMuMTI1LS4yODFsNC44OC00LjU3QS40MTguNDE4IDAgMCAxIDUuNS4zNjZjLjExNCAwIC4yMTMuMDQuMjk2LjExOGw0Ljg4IDQuNTdhLjM3MS4zNzEgMCAwIDEgLjEyNS4yOC4zNzEuMzcxIDAgMCAxLS4xMjUuMjgxeiIvPgo8L3N2Zz4=) no-repeat;
-      padding-left: 11px;
   }
   
   .partnered .voted {
@@ -8119,18 +7963,6 @@ h2 {
   .input-with-btn{
     box-shadow:none;
   }
-  .input-with-btn input::-webkit-search-cancel-button{
-    opacity:0;
-    transition:0.2s;
-    height:30px;
-    width:30px;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    cursor:pointer;
-    background-repeat:no-repeat;
-    background-size:100%;
-    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhL7dbNDYJAEAVgurAGLWNDaIIKOFMITWHAAvSqHjxzNNEYnUd2EgPsH8zKxZdMDOvOfMSLk/yzapo03VLtG6U2+ig46KUZdavUTh/ZA7TNsu6U50/6vM7B0XPIsoue0WGm/mo6jN7K8nWvqve5KB6hOKPoxQzMcuIt/bxHeks0cIXgQ5QLMzFbXxsHjUCGjT64CfV+cRuOwVMDFqOcEFwM5fjg4ijHNhjnUVCODY+Gckz4d4mjHBseDUVWgW0olzhuQvE8dSaC21AAKHHcheJ7lCjug+qr/V0TjhneeAjKWYzPQTmLcPqzrrGuDBtdKMf04v0KRLP1tXGwmBEivvrQc+dc+qSXPS+UA5zqt+vtP3GSJB8dMjDEDq+o8wAAAABJRU5ErkJggg==');
-  }
   .input-with-btn input::placeholder{
     color:rgba(0,0,0,0.3);
     font-style:italic;
@@ -9076,11 +8908,20 @@ background: transparent !important;
     border-color: --accent-secondary;
 }
 
-/*
-
-why doesnt this work? idk
-.speedline {
+.section.speedline {
     background: url('../images/speedline.svg') !important;
 }
 
-*/
+header#site-header {
+    background: url('../images/ocean-invert.svg');
+}
+
+img#vultr {
+    content: url('../images/vultr.png')
+}
+img#gsuite {
+    content: url('../images/gsuite.png');
+}
+img#freepbx {
+    content: url('../images/freepbx.png');
+}

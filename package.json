@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A website for me (jordan jones) ",
   "private": "true",
+  "sideEffect": ["**/*.scss"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -26,18 +27,22 @@
     "css-loader": "^5.2.1",
     "css-minimizer-webpack-plugin": "^2.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
+    "favicons": "^6.2.1",
+    "favicons-webpack-plugin": "^5.0.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
     "javascript-obfuscator": "^2.12.0",
     "mini-css-extract-plugin": "^1.4.1",
+    "mini-svg-data-uri": "^1.2.3",
     "node-sass": "^5.0.0",
-    "postcss-loader": "^5.2.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2",
-    "webpack-obfuscator": "^3.3.0"
+    "webpack-obfuscator": "^3.3.0",
+    "xml-loader": "^1.2.1"
   },
   "dependencies": {
     "lodash": "^4.17.21"

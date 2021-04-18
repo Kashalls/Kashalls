@@ -12,3 +12,10 @@ library.add(faPhoneAlt);
 library.add(faBan);
 library.add(faEnvelopeOpenText)
 dom.watch();
+
+import boxman from'../images/box-man.svg';
+import fff from '../images/farmfreshfundraising.png';
+import speedline from '../images/speedline.svg';
+import ocean from '../images/ocean-invert.svg';
+import logo from '../images/jordanjones-white.svg';
+import darklogo from '../images/jordanjones-colored.svg';
